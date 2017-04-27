@@ -9,7 +9,7 @@ $(document).ready(function() {
         $(".address").text(userAddress);
         $(".email").text(userEmail);
 
-        <script>
+
         function openModal() {
           document.getElementById('myModal').style.display = "block";
         }
@@ -46,7 +46,7 @@ $(document).ready(function() {
           dots[slideIndex-1].className += " active";
           captionText.innerHTML = dots[slideIndex-1].alt;
         }
-        </script>
+
         $(".receipt").show();
         $(".user").hide();
         event.preventDefault();
